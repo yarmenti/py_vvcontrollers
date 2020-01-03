@@ -1,8 +1,8 @@
 
 from pubsub import Subscriber
 
-from abstract import AbstrController
-from dialog import DialogController
+from .abstract import AbstrController
+from .dialog import DialogController
 import ipyvuetify as v
 
 

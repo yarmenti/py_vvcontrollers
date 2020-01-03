@@ -1,6 +1,6 @@
 
 from pubsub import Publisher
-from abstract import AbstrController
+from .abstract import AbstrController
 import ipyvuetify as v
 
 
@@ -17,7 +17,7 @@ class MenuController(AbstrController, Publisher):
 
     @property
     def controllers(self):
-        return self.__controllers    
+        return self.__controllers
 
     def add_element(self, icon, controller):
         link = v.ListItem(href="#", children=[

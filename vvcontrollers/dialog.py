@@ -1,5 +1,5 @@
 
-from abstract import AbstrController
+from .abstract import AbstrController
 import ipyvuetify as v
 
 

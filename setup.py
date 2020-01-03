@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="vvcontrollers-yarmenti",
-    version="0.1",
+    version="0.1.1",
     author="yarmenti",
     author_email="yannick.armenti@gmail.com",
     description="Helpers to use voila-vuetify template for voila-dashboards.",
